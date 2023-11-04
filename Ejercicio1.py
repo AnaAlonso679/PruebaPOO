@@ -6,4 +6,3 @@ if val == "hola":
     print("este es hola")
 else:
     print("este no es un hola")
-    print
