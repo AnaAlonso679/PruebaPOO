@@ -1,11 +1,11 @@
 class Ticket:
-    def _init_(self, id, description, status):
+    def __init__(self, id, description, status):
         self.id = id
         self.description = description
         self.status = status
 
 class SupportSystem:
-    def _init_(self):
+    def __init__(self):
         self.tickets = []
 
     def create_ticket(self, description):
@@ -51,5 +51,5 @@ def main():
         else:
             print("Opción no válida. Por favor, ingrese una opción válida.")
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     main()
